@@ -1,5 +1,5 @@
 {
-  "name": "@substrate/txwrapper",
+  "name": "@ddorgan/txwrapper",
   "version": "4.0.3",
   "author": "Parity Technologies <admin@parity.io>",
   "description": "Helper functions for offline transaction generation.",
@@ -14,7 +14,7 @@
   "engine": {
     "node": ">=12"
   },
-  "repository": "https://github.com/paritytech/txwrapper",
+  "repository": "https://github.com/ddorgan/txwrapper",
   "scripts": {
     "build": "rimraf lib/ && tsc -p tsconfig.build.json",
     "deploy": "yarn build && standard-version",
